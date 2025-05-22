@@ -1,6 +1,6 @@
 import type React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Lock } from "lucide-react";
+import { Lock } from "lucide-react"; // Mantendremos el icono Lock por ahora
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -18,7 +18,7 @@ export function AuthCard({ title, description, children, footerContent, showImag
       <div className="mb-8 text-center">
         <Link href="/" className="inline-flex items-center text-4xl font-bold text-primary hover:opacity-90 transition-opacity">
           <Lock size={40} className="mr-3" />
-          AuthZen
+          DarkAISchool
         </Link>
       </div>
       <Card className="w-full max-w-4xl shadow-2xl overflow-hidden md:grid md:grid-cols-2 rounded-xl">

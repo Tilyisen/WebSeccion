@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Lock } from "lucide-react";
+import { Lock } from "lucide-react"; // Mantendremos el icono Lock por ahora
 import Link from "next/link";
 
 export default function HomePage() {
@@ -10,10 +10,10 @@ export default function HomePage() {
         <CardHeader className="items-center text-center">
           <div className="mb-4 flex items-center text-3xl font-bold text-primary">
             <Lock size={36} className="mr-2" />
-            AuthZen
+            DarkAISchool
           </div>
-          <CardTitle className="text-2xl">Bienvenido a AuthZen</CardTitle>
-          <CardDescription>Su solución segura de autenticación.</CardDescription>
+          <CardTitle className="text-2xl">Bienvenido a DarkAISchool</CardTitle>
+          <CardDescription>Tu plataforma de aprendizaje con IA.</CardDescription>
         </CardHeader>
         <CardContent className="flex flex-col space-y-4">
           <Button asChild size="lg">

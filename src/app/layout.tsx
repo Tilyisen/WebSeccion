@@ -6,8 +6,8 @@ import { Toaster } from "@/components/ui/toaster";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: 'AuthZen - Secure Authentication',
-  description: 'User registration and login system by AuthZen',
+  title: 'DarkAISchool - Plataforma de Aprendizaje con IA',
+  description: 'Sistema de registro e inicio de sesión para DarkAISchool',
 };
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={cn(GeistSans.variable, GeistMono.variable)}>
+    <html lang="en" className={cn('dark', GeistSans.variable, GeistMono.variable)}>
       <body className={cn('antialiased')} suppressHydrationWarning={true}> {/* The font-family is applied via globals.css using the CSS variables */}
         {children}
         <Toaster />

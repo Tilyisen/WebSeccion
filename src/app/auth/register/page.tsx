@@ -4,8 +4,8 @@ import { AuthCard } from "@/components/auth/AuthCard";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: 'Registrarse - AuthZen',
-  description: 'Crea una nueva cuenta en AuthZen.',
+  title: 'Registrarse - DarkAISchool',
+  description: 'Crea una nueva cuenta en DarkAISchool.',
 };
 
 export default function RegisterPage() {

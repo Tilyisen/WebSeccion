@@ -4,8 +4,8 @@ import { AuthCard } from "@/components/auth/AuthCard";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: 'Iniciar Sesión - AuthZen',
-  description: 'Inicia sesión en tu cuenta de AuthZen.',
+  title: 'Iniciar Sesión - DarkAISchool',
+  description: 'Inicia sesión en tu cuenta de DarkAISchool.',
 };
 
 export default function LoginPage() {
